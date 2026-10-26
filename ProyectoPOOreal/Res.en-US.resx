@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NuevoU" xml:space="preserve">
+    <value>Creating a new user</value>
+  </data>
+  <data name="Cont" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="FormInicio" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Idioma" xml:space="preserve">
+    <value>Choose language</value>
+  </data>
+  <data name="InSesion" xml:space="preserve">
+    <value>Log In</value>
+  </data>
+	<data name="CerrSesion" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+	<data name="MessUoCIncorr" xml:space="preserve">
+    <value>Incorrect username or password</value>
+  </data>
+  <data name="Usu" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Rol" xml:space="preserve">
+    <value>Type of user</value>
+  </data>
+  <data name="Coor" xml:space="preserve">
+    <value>Championship Coordinator</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="Plani" xml:space="preserve">
+    <value>Scorekeeper</value>
+  </data>
+  <data name="CarU" xml:space="preserve">
+    <value>Load User</value>
+  </data>
+  <data name="EliU" xml:space="preserve">
+    <value>Delete User</value>
+  </data>
+    <data name="Arq" xml:space="preserve">
+    <value>Goalkeeper</value>
+  </data>
+	<data name="Def" xml:space="preserve">
+    <value>Defender</value>
+  </data>
+	<data name="Med" xml:space="preserve">
+    <value>Midfielder</value>
+  </data>
+	<data name="Del" xml:space="preserve">
+    <value>Striker</value>
+  </data>
+	<data name="Jug" xml:space="preserve">
+    <value>Player</value>
+  </data>
+	<data name="IdiomaAct" xml:space="preserve">
+    <value>English</value>
+  </data>
+	<data name="Nom" xml:space="preserve">
+    <value>Name</value>
+  </data>
+	<data name="Ape" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+	<data name="NomEq" xml:space="preserve">
+    <value>Team name</value>
+  </data>
+	<data name="Eq" xml:space="preserve">
+    <value>Team</value>
+  </data>
+	<data name="IniCargEq" xml:space="preserve">
+    <value>Start team load</value>
+  </data>
+	<data name="Carg" xml:space="preserve">
+    <value>Load</value>
+  </data>
+	<data name="Ciudad" xml:space="preserve">
+    <value>City</value>
+  </data>
+	<data name="MessCampos" xml:space="preserve">
+    <value>Please complete all required fields</value>
+  </data>
+	<data name="MessIniCarg" xml:space="preserve">
+    <value>Start loading the players</value>
+  </data>
+	<data name="MessEqCarg" xml:space="preserve">
+    <value>Team was successfully loaded</value>
+  </data>
+	<data name="MessConJug" xml:space="preserve">
+    <value>/5 loaded</value>
+  </data>
+	<data name="IniCamp" xml:space="preserve">
+    <value>Start Tournament</value>
+  </data>
+	<data name="CargEqu" xml:space="preserve">
+    <value>Load Teams</value>
+  </data>
+	<data name="CargArb" xml:space="preserve">
+    <value>Load Referees</value>
+  </data>
+	<data name="Arb" xml:space="preserve">
+    <value>Referee</value>
+  </data>
+	<data name="CargEst" xml:space="preserve">
+    <value>Load Stadiums</value>
+  </data>
+	<data name="Est" xml:space="preserve">
+    <value>Stadium</value>
+  </data>
+	<data name="NomEst" xml:space="preserve">
+    <value>Stadium's Name</value>
+  </data>
+	<data name="Matricula" xml:space="preserve">
+    <value>Referee certification</value>
+  </data>
+	<data name="MessDniExist" xml:space="preserve">
+    <value>There is already a player registered with that ID number.</value>
+  </data>
+	<data name="ModJug" xml:space="preserve">
+    <value>Modify Players</value>
+  </data>
+	<data name="ModArb" xml:space="preserve">
+    <value>Modify Referees</value>
+  </data>
+	<data name="ModEq" xml:space="preserve">
+    <value>Modify Teams</value>
+  </data>
+	<data name="ModEst" xml:space="preserve">
+    <value>Modify Stadiums</value>
+  </data>
+	<data name="ModIdi" xml:space="preserve">
+    <value>Change default language</value>
+  </data>
+	<data name="Ayuda" xml:space="preserve">
+    <value>Help</value>
+  </data>
+	<data name="Esp" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+	<data name="Ing" xml:space="preserve">
+    <value>English</value>
+  </data>
+	<data name="MessModIdi" xml:space="preserve">
+    <value>Language was changed successfully</value>
+  </data>
+	<data name="MessIdiAct" xml:space="preserve">
+    <value>The language you selected is the one you are using</value>
+  </data>
+	<data name="Eli" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+	<data name="Mod" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+	<data name="MessMatExist" xml:space="preserve">
+    <value>There is already a referee with that license plate.</value>
+  </data>
+  <data name="Nue" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="DNI" xml:space="preserve">
+    <value>ID</value>
+  </data>
+	<data name="MessNoMod" xml:space="preserve">
+    <value>You did not modify properties</value>
+  </data>
+	<data name="ConAct" xml:space="preserve">
+  <value>Current Password</value>
+</data>
+	<data name="NueCon" xml:space="preserve">
+  <value>New Password</value>
+</data>
+	<data name="ConfNueCon" xml:space="preserve">
+  <value>Confirm New Password</value>
+</data>
+	<data name="CambCon" xml:space="preserve">
+  <value>Change Password</value>
+</data>
+	<data name="LblPart" xml:space="preserve">
+  <value>Matches</value>
+</data>
+	<data name="LblJug" xml:space="preserve">
+  <value>Players</value>
+</data>
+	<data name="LblTipEve" xml:space="preserve">
+  <value>Event Type</value>
+</data>
+	<data name="LblMinEve" xml:space="preserve">
+  <value>Event Minute</value>
+</data>
+	<data name="LblCauEve" xml:space="preserve">
+  <value>Event Cause</value>
+</data>
+	<data name="LblJor" xml:space="preserve">
+  <value>Matchday</value>
+</data>
+	<data name="LblPos" xml:space="preserve">
+  <value>Position</value>
+</data>
+	<data name="BtnGuaPos" xml:space="preserve">
+  <value>Save position for the match</value>
+</data>
+	<data name="BtnRegEve" xml:space="preserve">
+  <value>Register Event</value>
+</data>
+	<data name="BtnFinCar" xml:space="preserve">
+  <value>Finish match loading</value>
+</data>
+	<data name="VerTablaPos" xml:space="preserve">
+  <value>See standings</value>
+</data>
+	<data name="RegEventos" xml:space="preserve">
+  <value>Register Events</value>
+</data>
+	<data name="SuspParti" xml:space="preserve">
+  <value>Delayed Match</value>
+</data>
+	<data name="IniRepro" xml:space="preserve">
+  <value>Start Rescheduling the Match</value>
+</data>
+	<data name="MessPartRepro" xml:space="preserve">
+  <value>The match has been rescheduled. New date:</value>
+</data>
+	<data name="MessPartNoRepro" xml:space="preserve">
+  <value>There is already a match scheduled for that date. Please choose another date.</value>
+</data>
+	<data name="DetCampeon" xml:space="preserve">
+  <value>Define Champion</value>
+</data>
+	<data name="MessPartNoRegis" xml:space="preserve">
+  <value>There are still games to be recorded. The champion cannot be determined.</value>
+</data>
+	<data name="MessCampeon" xml:space="preserve">
+  <value>The champion is: </value>
+</data>
+	<data name="MessEqExist" xml:space="preserve">
+  <value>There is a team with the same name. Choose other</value>
+</data>
+	<data name="OrdenarXA" xml:space="preserve">
+  <value>Order by surname</value>
+</data>
+</root>

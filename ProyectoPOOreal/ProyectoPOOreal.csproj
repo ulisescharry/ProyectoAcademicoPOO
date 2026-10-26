@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{029DB891-FDD0-4C17-9F91-10A535AA4371}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProyectoPOOreal</RootNamespace>
+    <AssemblyName>ProyectoPOOreal</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entidades\CLS_Arbitro.cs" />
+    <Compile Include="Entidades\CLS_Campeonato.cs" />
+    <Compile Include="Entidades\CLS_Equipo.cs" />
+    <Compile Include="Entidades\CLS_Estadio.cs" />
+    <Compile Include="Entidades\CLS_Evento.cs" />
+    <Compile Include="Idioma\CLS_Idioma.cs" />
+    <Compile Include="Entidades\CLS_Jornada.cs" />
+    <Compile Include="Entidades\CLS_Jugador.cs" />
+    <Compile Include="Gestores\CLS_GestorUsuario.cs" />
+    <Compile Include="Servicios\CLS_JugadorVista.cs" />
+    <Compile Include="Persistencia\CLS_ManejoCSV%28ABM%29.cs" />
+    <Compile Include="Entidades\CLS_Partido.cs" />
+    <Compile Include="Servicios\CLS_Persona.cs" />
+    <Compile Include="Entidades\CLS_RolPartido.cs" />
+    <Compile Include="Seguridad\CLS_Seguridad.cs" />
+    <Compile Include="Entidades\CLS_Usuario.cs" />
+    <Compile Include="Servicios\CLS_UsuarioVista.cs" />
+    <Compile Include="Servicios\EXC_CantArb.cs" />
+    <Compile Include="FormCambiarContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCambiarContraseña.Designer.cs">
+      <DependentUpon>FormCambiarContraseña.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCargaAr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCargaAr.Designer.cs">
+      <DependentUpon>FormCargaAr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormComun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComun.Designer.cs">
+      <DependentUpon>FormComun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIniciarCamp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIniciarCamp.Designer.cs">
+      <DependentUpon>FormIniciarCamp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModAr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModAr.Designer.cs">
+      <DependentUpon>FormModAr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModEq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModEq.Designer.cs">
+      <DependentUpon>FormModEq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModJug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModJug.Designer.cs">
+      <DependentUpon>FormModJug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPlanillero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPlanillero.Designer.cs">
+      <DependentUpon>FormPlanillero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCargaEq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCargaEq.Designer.cs">
+      <DependentUpon>FormCargaEq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVerTablaPosiciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVerTablaPosiciones.Designer.cs">
+      <DependentUpon>FormVerTablaPosiciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Servicios\IUsoCSV.cs" />
+    <Compile Include="FormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdmin.Designer.cs">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Res.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Res.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Res.en-US.Designer.cs" />
+    <EmbeddedResource Include="FormCambiarContraseña.resx">
+      <DependentUpon>FormCambiarContraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCargaAr.resx">
+      <DependentUpon>FormCargaAr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCargaEq.resx">
+      <DependentUpon>FormCargaEq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormComun.resx">
+      <DependentUpon>FormComun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIniciarCamp.resx">
+      <DependentUpon>FormIniciarCamp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModAr.resx">
+      <DependentUpon>FormModAr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModEq.resx">
+      <DependentUpon>FormModEq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModJug.resx">
+      <DependentUpon>FormModJug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPlanillero.resx">
+      <DependentUpon>FormPlanillero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVerTablaPosiciones.resx">
+      <DependentUpon>FormVerTablaPosiciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin.resx">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Res.en-US.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Res.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Res.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
